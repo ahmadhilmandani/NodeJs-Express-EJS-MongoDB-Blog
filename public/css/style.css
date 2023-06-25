@@ -309,7 +309,7 @@ img {
 }
 
 /* SeachBar */
-.searchBar {
+.search_container {
   visibility: hidden;
   transform: translateY(-100px);
   background-color: var(--black);
@@ -319,17 +319,17 @@ img {
   right: 0;
 }
 
-.searchBar.open {
+.search_container.open {
   transform: translateY(0);
   transition: transform 0.1s;
 }
 
-.searchBar input {
+.search_container input {
   margin: 0;
   border: 0;
 }
 
-#searchClose {
+#search_close {
   position: absolute;
   top: 0;
   right: 0;
